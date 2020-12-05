@@ -1,7 +1,11 @@
 class NadiiPromise {
-then()
-catch()
-finally()
+    constructor(executor) {
+        executor()
+    }
+then() {}
+catch() {}
+
+finally() {}
 }
 
  const promise = new Promise((resolve, reject) => {
